@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+ind main()
+{
+  int x;
+  cout << "Ввудите x";
+  cin >> x;
+  (x % 2 == 0)? cout << "чётное\n": cout << "нечётное\n";
+  return 0;
+}
